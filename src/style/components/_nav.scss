@@ -6,12 +6,21 @@
 */
 .c-nav {
 	overflow: hidden;
+
+	text-align: right;
+}
+.c-nav__title {
+	margin: 0;
+	padding: $base-line-height 0;
+	float: left;
+
+	@include adjust-font-size-to(modular-scale(0));
+	font-weight: 400;
 }
 .c-nav__link {
-	display: block;
+	display: inline-block;
 	padding: $base-line-height 0;
 	margin-right: 20px;
-	float: left;
 	border: none;
 
 	&:last-child {
