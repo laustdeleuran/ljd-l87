@@ -1,0 +1,7 @@
+{
+	"globalstrict": true,
+	"browserify": true,
+	"undef": true,
+	"unused": true,
+	"predef" : ["window", "document", "htk"]
+}

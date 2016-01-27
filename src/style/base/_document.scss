@@ -1,0 +1,33 @@
+/**
+* Document
+*
+* Base document layout and setup. Also fix HTML5 elements in old IE + AngularJS.
+*
+* @section Base
+* @author ljd
+*/
+* {
+	box-sizing: border-box;
+}
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+html,
+body {
+	min-width: $site-min-width;
+}
+html {
+	@include establish-baseline();
+
+	min-height: 100%;
+
+	position: relative;
+
+	font-family: $font-stack-sans;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+	color: $color-white;
+
+	background: $color-black;
+}

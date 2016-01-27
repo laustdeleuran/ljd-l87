@@ -1,0 +1,25 @@
+/**
+* Input
+*
+* @section Objects
+* @author ljd
+*/
+.o-input {
+	display: block;
+	box-sizing: border-box;
+	border: none;
+	width: 100%;
+	padding: $base-line-height;
+	margin: $base-line-height * 2 0;
+
+	text-align: center;
+	color: $color-white;
+
+	background: $color-grey-dark;
+
+	box-shadow: 0 2px $color-highlight;
+	outline: none;
+}
+@include media(tabletV) {
+	padding: $base-line-height * 2;
+}

@@ -1,0 +1,15 @@
+/**
+* Graph
+*
+* @section Components
+* @author ljd
+*/
+.c-graph {
+	display: block;
+	margin: $base-line-height * 2 0;
+}
+.c-graph__canvas {
+	display: block;
+	width: 100%;
+	height: 300px;
+}

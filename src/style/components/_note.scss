@@ -1,0 +1,27 @@
+/**
+* Note
+*
+* @section Components
+* @author ljd
+*/
+.c-note {
+	margin: $base-line-height * 2 0;
+	padding: $base-line-height;
+
+	color: $color-black;
+	font-family: $font-stack-mono;
+
+	background: $color-white;
+
+	box-shadow: 0 0 0 1px $color-black-true;
+}
+.c-note__title {
+	@include adjust-font-size-to(modular-scale(0));
+	font-family: $font-stack-mono;
+	font-weight: 700;
+}
+@include media(tabletV) {
+	.c-note {
+		padding: $base-line-height * 2;
+	}
+}

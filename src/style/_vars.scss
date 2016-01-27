@@ -1,0 +1,40 @@
+/**
+* Variables
+*
+* Basic site wide variables. All variables used cross-modules should be placed here. Please use existing CSS naming conventions when naming variables in CSS (lowercase, dashes - see http://cssguidelin.es/#naming-conventions).
+*
+* @section Quarks
+* @author ljd
+*/
+
+// Type & rythm
+$em-base:                18px;
+$base-line-height:       10px;
+$min-line-padding:       5px;
+
+// Screen sizes (media queries)
+$site-min-width:         260px;
+$wrapper-max-width:      960px;
+
+// Z-indexes
+$z-index-main:           100;
+
+// Colors
+$color-white:            rgb(235, 235, 235);
+$color-black:            rgb(35, 35, 35);
+$color-black-true:       rgb(0, 0, 0);
+
+$color-grey-dark:        rgb(80, 80, 80);
+
+$color-highlight:        rgb(119, 121, 238);
+
+$color-facebook:         rgb(59, 89, 152);
+$color-twitter:          rgb(0, 172, 237);
+$color-instagram:        rgb(103, 81, 68);
+$color-youtube:          rgb(196, 48, 43);
+
+// Font
+$font-stack-sans:        'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$font-stack-serif:       'Georgia', 'Times', 'Times New Roman', serif;
+$font-stack-mono:        'Courier New', 'Courier', 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+

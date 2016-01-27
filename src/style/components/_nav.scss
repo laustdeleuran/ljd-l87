@@ -1,0 +1,20 @@
+/**
+* Navigation
+*
+* @section Components
+* @author ljd
+*/
+.c-nav {
+	overflow: hidden;
+}
+.c-nav__link {
+	display: block;
+	padding: $base-line-height 0;
+	margin-right: 20px;
+	float: left;
+	border: none;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}

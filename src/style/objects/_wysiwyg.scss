@@ -1,0 +1,65 @@
+/**
+* WYSIWYG styles
+*
+* @section Objects
+* @author ljd
+*/
+.o-wysiwyg {
+	iframe {
+		border: 1px solid $color-black-true;
+		width: 100%;
+		max-width: 100%;
+	}
+	li {
+		margin: 0 0 $base-line-height 20px;
+
+		>:last-child {
+			margin-bottom: 0;
+		}
+	}
+	blockquote {
+		padding: $base-line-height $base-line-height * 2;
+
+		@include adjust-font-size-to(modular-scale(1));
+		font-style: italic;
+		font-weight: 300;
+
+		cite {
+			display: block;
+
+			@include adjust-font-size-to(modular-scale(-1));
+			text-align: right;
+
+			&:before {
+				content: "–";
+			}
+		}
+	}
+	> :last-child {
+		margin-bottom: 0;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+	table {
+		max-width: 100%;
+	}
+	th,
+	td {
+		border: 1px solid $color-black-true;
+		padding: 5px;
+
+		>:last-child {
+			margin-bottom: 0;
+		}
+	}
+	th {
+		font-weight: bold;
+	}
+}
+.o-wysiwyg__table {
+	overflow: auto;
+	max-width: 100%;
+}

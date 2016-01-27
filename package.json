@@ -1,0 +1,51 @@
+{
+  "name": "ljd-l87",
+  "version": "0.1.0",
+  "description": "L87",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:laustdeleuran/ljd-l87.git"
+  },
+  "author": "LJD - http://www.ljd.dk",
+  "contributors": [
+    {
+      "name": "Laust Deleuran",
+      "email": "ljd@ljd.dk"
+    }
+  ],
+  "license": "WTFPL",
+  "dependencies": {
+    "bourbon": "^4.2.6",
+    "browsernizr": "^2.0.1",
+    "chart.js": "^1.0.2",
+    "ljd-njord": "^0.3.2",
+    "lodash": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "browserify": "^12.0.0",
+    "del": "^2.0.2",
+    "express": "^4.13.3",
+    "flatten": "0.0.1",
+    "fs": "0.0.2",
+    "gulp": "^3.9.0",
+    "gulp-bump": "^1.0.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-jshint": "^1.12.0",
+    "gulp-load-plugins": "^1.0.0",
+    "gulp-ng-annotate": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.7",
+    "jshint-stylish": "^2.0.1",
+    "path": "^0.12.7",
+    "semver": "^5.0.3",
+    "stringify": "^3.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.5.0"
+  }
+}

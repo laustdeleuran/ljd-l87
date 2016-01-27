@@ -1,0 +1,14 @@
+/**
+* Wrapper
+*
+* @section Objects
+* @author ljd
+*/
+.o-wrapper {
+	max-width: 40em;
+	margin: 0 auto;
+	padding: $base-line-height;
+}
+@include media(tabletV) {
+	padding: $base-line-height * 2;
+}

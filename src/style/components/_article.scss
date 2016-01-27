@@ -1,0 +1,15 @@
+/**
+* Article
+*
+* @section Components
+* @author ljd
+*/
+.c-article {
+	margin: $base-line-height * 4 0;
+}
+@include media(tabletV) {
+	.c-article {
+		margin: $base-line-height * 6 0;
+		padding: $base-line-height * 6 0;
+	}
+}
