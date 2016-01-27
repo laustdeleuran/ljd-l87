@@ -14,4 +14,4 @@ Data er taget fra folketingets website. Billederne af vores folkevalgte er lånt
 
 Jeg er meget klar over det her debatindlæg er ekstremt farvet. Men noget er vi nødt til at gøre.
 
-Alle henvendelser bedes rettes til [ljd@ljd.dk]. Hvis jeg har trådt nogen over tæerne, så sig endelig til, så skal jeg bestræbe mig på at gøre det godt igen så hurtigt som muligt.
+Alle henvendelser bedes rettes til ljd@ljd.dk. Hvis jeg har trådt nogen over tæerne, så sig endelig til, så skal jeg bestræbe mig på at gøre det godt igen så hurtigt som muligt.
